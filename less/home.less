@@ -1,0 +1,40 @@
+img {
+    height: 60em;
+    width: auto;
+    .doublePadding(5%, 5%);
+}
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+
+    h4 {
+        text-align: center;
+        font-size: 50px;
+        .doublePadding(50px, 50px);
+        border-bottom: 20px double black;
+    }
+
+    p {
+        text-align: center;
+        font-size: 30px;
+        .doublePadding(0, 50px);
+    }
+
+    button {
+        color: white;
+        background-color: #DD3535;
+        border-radius: 4px;
+        font-size: 2.4em;
+        text-decoration: none;
+        border: none;
+
+    }
+}
+
+button:hover {
+    .hover(white, #DD3535);
+    border: 2px solid #DD3535;
+}
