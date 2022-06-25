@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+  background-color: #001011;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  height: 20vh;
+  margin-top: 2em;
+  border-top: 15px double white;
+  border-bottom: 15px double white;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 25px;
+}
+a:hover {
+  background-color: #dd3535;
+  color: white;
+  border: 2px solid white;
+}
+footer {
+  background-color: #dd3535;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer button {
+  padding: 1.5em;
+}
+footer a {
+  text-decoration: none;
+  background: white;
+  color: #dd3535;
+  padding: 1.5em;
+}
+footer a img {
+  width: 42px;
+  height: auto;
+}
+footer .social a {
+  padding: 0;
+}
+footer #facebook {
+  padding: 0;
+  text-decoration: none;
+}
+h1 {
+  font-family: 'Dancing Script';
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+h3 {
+  font-family: 'Dancing Script';
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+img {
+  height: 60em;
+  width: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.content {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.content h4 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 20px double black;
+}
+.content p {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+.content button {
+  color: white;
+  background-color: #DD3535;
+  border-radius: 4px;
+  font-size: 2.4em;
+  text-decoration: none;
+  border: none;
+}
+button:hover {
+  background-color: white;
+  color: #DD3535;
+  border: 2px solid #DD3535;
+}
