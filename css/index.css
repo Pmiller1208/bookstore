@@ -128,10 +128,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-* {
-  border: 2px solid red;
-  box-sizing: border-box;
-}
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -146,18 +142,19 @@ html {
   border-top: 15px double white;
   border-bottom: 15px double white;
 }
-.nav a {
+.nav .link {
   text-decoration: none;
   color: black;
   background-color: white;
   padding: 25px;
 }
-a:hover {
+.link:hover {
   background-color: #dd3535;
   color: white;
   border: 2px solid white;
 }
 footer {
+  padding: 20px;
   background-color: #dd3535;
   display: flex;
   justify-content: space-evenly;
@@ -166,22 +163,23 @@ footer {
 footer button {
   padding: 1.5em;
 }
-footer a {
+footer .link {
   text-decoration: none;
   background: white;
   color: #dd3535;
   padding: 1.5em;
 }
-footer a img {
+footer .link img {
   width: 42px;
   height: auto;
 }
-footer .social a {
-  padding: 0;
+footer .social {
+  display: flex;
+  gap: 20px;
 }
-footer #facebook {
-  padding: 0;
-  text-decoration: none;
+footer .social img {
+  height: 75px;
+  width: auto;
 }
 h1 {
   font-family: 'Dancing Script';
@@ -210,6 +208,7 @@ img {
   width: 75%;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 100px;
 }
 .content h4 {
   text-align: center;
