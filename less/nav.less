@@ -14,7 +14,6 @@
         color: black;
         background-color: white;
         padding: 25px;
-        
     }
 }
 
@@ -22,3 +21,70 @@
     .hover(#dd3535, white);
     border: 2px solid white;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    gap: 50px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    
+    
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #soc {
+    .dropbutton(#001011, #dd3535);
+  }
+
+  #slu {
+    .dropbutton(#008000, #ffffff);
+  }
+
+  #hsd {
+    .dropbutton(#0c3db0, #ffffff);
+  }
+
+  #wow {
+    .dropbutton(#00BFFF, #ffffff);
+  }
